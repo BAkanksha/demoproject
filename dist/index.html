@@ -6,7 +6,7 @@
     <title>Akanksha Singh - Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" crossorigin href="/assets/index-Ba0ATzWF.css">
+  <link rel="stylesheet" crossorigin href="/assets/index-wb8I0hA2.css">
 </head>
 <body>
     <!-- Navigation -->
@@ -315,13 +315,9 @@
                             <span class="tech-tag">SQL</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i>
-                                Live Demo
-                            </a>
-                            <a href="#" class="project-link">
+                            <a href="https://github.com/BAkanksha/gadgethub-java-project" target="_blank" class="project-link">
                                 <i class="fab fa-github"></i>
-                                Code
+                                View Code
                             </a>
                         </div>
                     </div>
@@ -341,13 +337,9 @@
                             <span class="tech-tag">JavaScript</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i>
-                                Live Demo
-                            </a>
-                            <a href="#" class="project-link">
+                            <a href="https://github.com/BAkanksha/bank-management-system-in-java" target="_blank" class="project-link">
                                 <i class="fab fa-github"></i>
-                                Code
+                                View Code
                             </a>
                         </div>
                     </div>
@@ -426,21 +418,25 @@
                     </div>
                 </div>
                 <div class="contact-form">
-                    <form id="contactForm">
+                    <form action="https://formspree.io/f/xpwzqjqr" method="POST" id="contactForm">
                         <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <input type="text" name="name" placeholder="Your Name" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
                         </div>
                         <div class="form-group">
-                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">
                             <i class="fas fa-paper-plane"></i>
                             Send Message
                         </button>
                     </form>
+                    <div id="form-status" class="form-status"></div>
                 </div>
             </div>
         </div>
